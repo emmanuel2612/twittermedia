@@ -6,86 +6,148 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
 
     <div id="fixed">
 
-    <header>
-        <img src="images/coverimage.jpg">
-        <img src="images/blm.jpg">
-        <img src="images/quote.jpg">
+        <header>
+            <img src="images/coverimage.jpg">
+            <img src="images/blm.jpg">
+            <img src="images/quote.jpg">
 
-    </header>
-
-
+        </header>
 
 
 
 
-    <section id="userProfile">
 
-        <div id="userImgContainer" class="globalWrap">
 
-            <div id="profileImgName">
-                <figure id="profilePicContainer">
-                    <img src="images/profilepicture.jpg">
-                </figure>
-                <h1>Emmanuel</h1>
-                <p class="greyText bodyText">@theirfatherr</p>
+        <section id="userProfile">
+
+            <div id="userImgContainer" class="globalWrap">
+
+                <div id="profileImgName">
+                    <figure id="profilePicContainer">
+                        <img src="images/profilepicture.jpg">
+                    </figure>
+                    <h1>Emmanuel</h1>
+                    <p class="greyText bodyText">@theirfatherr</p>
+                </div>
+
+                <button>Edit profile</button>
             </div>
 
-            <button>Edit profile</button>
-        </div>
+            <div id="userInfo" class="globalWrap">
+                <p class="bodyText">20. Front End Developer</p>
+                <p class="greyText bodyText">
+                    <i class="fas fa-map-marker-alt" style="margin-right: 6px;"></i></i>devbyemmanuel.com <i
+                        class="far fa-calendar-alt" style="margin-right: 6px; margin-left: 14px;"></i>Joined October
+                    2009
+                </p>
 
-        <div id="userInfo" class="globalWrap">
-            <p class="bodyText">20. Front End Developer</p>
-            <p class="greyText bodyText">
-                <i class="fas fa-map-marker-alt" style="margin-right: 6px;"></i></i>devbyemmanuel.com <i
-                    class="far fa-calendar-alt" style="margin-right: 6px; margin-left: 14px;"></i>Joined October 2009
-            </p>
+                <p class="bodyText">442 <span class="greyText">Following</span> 877 <span
+                        class="greyText">Followers</span>
+                </p>
 
-            <p class="bodyText">442 <span class="greyText">Following</span> 877 <span class="greyText">Followers</span>
-            </p>
+            </div>
 
-        </div>
-
-        <div id="profileNav">
-            <h4>Tweets</h4>
-            <h4>Tweets & replies</h4>
-            <h4>Media</h4>
-            <h4>Likes</h4>
-        </div>
+            <div id="profileNav">
+                <h4>Tweets</h4>
+                <h4>Tweets & replies</h4>
+                <h4>Media</h4>
+                <h4>Likes</h4>
+            </div>
 
 
-    </section>
+        </section>
 
-</div>
+    </div>
 
     <main id="media">
         <div class="globalWrap">
 
-                <h4>Photos & Videos</h4>
-                
+            <h4 id="photos-button">Photos & Videos</h4>
 
-            <figure id="photos-container">
-                <img src="images/emmanuel.jpg">
-            </figure>
-
-            <button id="photos-viewall-button">View all</button>
-
-
-            <h4>GIFs</h4>
-
-            <figure id="photos-container">
-                <img src="images/russell.gif">
-            </figure>
-
-            <button id="gifs-viewall-button">View all</button>
+            <h4 id="gifs-button">GIFs</h4>
 
         </div>
 
+        <div id="wrap">
+            <div id="photos-page">
+
+                <div id="pinnedTweet" class="tweetContainer">
+
+                    <figure class="tweetProfileImgContainer">
+                        <img class="tweetProfileImg" src="images/profilepicture.jpg">
+                    </figure>
+
+                    <div>
+
+                        <h4 class="tweetName bodyText">EMMANUEL <span class="greyText">@EO2612</span> </h4>
+
+
+
+                        <figure id="photos-container">
+                            <img src="images/emmanuel.jpg">
+                        </figure>
+
+                    </div>
+
+
+                </div>
+
+                <div id="pinnedTweet" class="tweetContainer">
+
+                    <figure class="tweetProfileImgContainer">
+                        <img class="tweetProfileImg" src="images/profilepicture.jpg">
+                    </figure>
+
+                    <div>
+
+                        <h4 class="tweetName bodyText">EMMANUEL <span class="greyText">@EO2612</span> </h4>
+
+
+
+                        <figure id="photos-container">
+                            <img src="images/emmanuel.jpg">
+                        </figure>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+            <div id="gifs-page">
+                <div id="pinnedTweet" class="tweetContainer">
+
+                    <figure class="tweetProfileImgContainer">
+                        <img class="tweetProfileImg" src="images/profilepicture.jpg">
+                    </figure>
+
+                    <div>
+
+                        <h4 class="tweetName bodyText">EMMANUEL <span class="greyText">@EO2612</span> </h4>
+
+
+
+                        <figure id="photos-container">
+                            <img src="images/sky.jpg">
+                        </figure>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
 
     </main>
 
